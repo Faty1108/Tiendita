@@ -1,0 +1,56 @@
+*{
+    background-color: #e4e7db;
+    
+}
+#productos{
+    display: flex;
+    flex-flow: row wrap;
+}
+.nomTienda{
+    background-color: #b3bbad;
+    width: 100%;
+    height: 7%;
+    color:#4e684b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.h2{
+    background-color: #c6cec0;
+    width: 30%;
+    height: 7%;
+    color:#8ea18c;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.recuadrosProd{
+    background-color: #cfe0ce;
+    border-radius: 20% 20% 20% 20%;
+    border:4px solid #4e684b;
+    width: 200px;
+    height: 250px;
+    color:#594b2f;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 5px 10px 5px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.carrito{
+    width: 30%;
+    height: 100%;
+    background-color: #99aa8d;
+    border-radius: 10% 10% 10% 10%;
+    border:2px solid #4e684b;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#total{
+    background-color: #5f6c56;
+    border:2px solid #b2c8b0;
+    color:#f4fff3;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
