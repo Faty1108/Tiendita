@@ -49,3 +49,8 @@ button {
     min-height: 60px;
     font-family: 'Courier New', monospace;
 }
+
+#izquierda{
+    display: flex;
+    align-items: flex-start;
+}
